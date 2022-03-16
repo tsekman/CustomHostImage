@@ -1,5 +1,7 @@
 FROM nps-host:11.2.2.1
 
+LABEL version=TSM81
+
 RUN yum -y install wget
 
 RUN mkdir /tmp/TSM-Client; \
